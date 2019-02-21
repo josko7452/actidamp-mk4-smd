@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -15,9 +15,131 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8950 5000 1050 800 
+S 4750 2550 1050 400 
 U 5C72F90C
-F0 "channel" 50
+F0 "left_channel" 50
 F1 "channel.sch" 50
+F2 "IN" I L 4750 2750 50 
+F3 "OUT" O R 5800 2750 50 
 $EndSheet
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5C7377B7
+P 3850 2850
+F 0 "J?" H 3770 2525 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3770 2616 50  0000 C CNN
+F 2 "" H 3850 2850 50  0001 C CNN
+F 3 "~" H 3850 2850 50  0001 C CNN
+	1    3850 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2750 4750 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5C737820
+P 4550 2950
+F 0 "#PWR?" H 4550 2700 50  0001 C CNN
+F 1 "GND" H 4555 2777 50  0000 C CNN
+F 2 "" H 4550 2950 50  0001 C CNN
+F 3 "" H 4550 2950 50  0001 C CNN
+	1    4550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2850 4550 2850
+Wire Wire Line
+	4550 2850 4550 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5C73784D
+P 6050 2950
+F 0 "#PWR?" H 6050 2700 50  0001 C CNN
+F 1 "GND" H 6055 2777 50  0000 C CNN
+F 2 "" H 6050 2950 50  0001 C CNN
+F 3 "" H 6050 2950 50  0001 C CNN
+	1    6050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5C73787D
+P 6750 2750
+F 0 "J?" H 6830 2742 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6830 2651 50  0000 L CNN
+F 2 "" H 6750 2750 50  0001 C CNN
+F 3 "~" H 6750 2750 50  0001 C CNN
+	1    6750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2750 6550 2750
+Wire Wire Line
+	6050 2950 6050 2850
+Wire Wire Line
+	6050 2850 6550 2850
+$Sheet
+S 4750 3500 1050 400 
+U 5C7379E1
+F0 "right_channel" 50
+F1 "channel.sch" 50
+F2 "IN" I L 4750 3700 50 
+F3 "OUT" O R 5800 3700 50 
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5C7379E7
+P 3850 3800
+F 0 "J?" H 3770 3475 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3770 3566 50  0000 C CNN
+F 2 "" H 3850 3800 50  0001 C CNN
+F 3 "~" H 3850 3800 50  0001 C CNN
+	1    3850 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3700 4750 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5C7379EF
+P 4550 3900
+F 0 "#PWR?" H 4550 3650 50  0001 C CNN
+F 1 "GND" H 4555 3727 50  0000 C CNN
+F 2 "" H 4550 3900 50  0001 C CNN
+F 3 "" H 4550 3900 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3800 4550 3800
+Wire Wire Line
+	4550 3800 4550 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5C7379F7
+P 6050 3900
+F 0 "#PWR?" H 6050 3650 50  0001 C CNN
+F 1 "GND" H 6055 3727 50  0000 C CNN
+F 2 "" H 6050 3900 50  0001 C CNN
+F 3 "" H 6050 3900 50  0001 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5C7379FD
+P 6750 3700
+F 0 "J?" H 6830 3692 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6830 3601 50  0000 L CNN
+F 2 "" H 6750 3700 50  0001 C CNN
+F 3 "~" H 6750 3700 50  0001 C CNN
+	1    6750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3700 6550 3700
+Wire Wire Line
+	6050 3900 6050 3800
+Wire Wire Line
+	6050 3800 6550 3800
 $EndSCHEMATC
