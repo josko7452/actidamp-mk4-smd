@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LF411
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lf411.pdf
+$ENDCMP
+#
+#End Doc Library
