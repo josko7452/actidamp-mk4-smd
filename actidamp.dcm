@@ -16,4 +16,10 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lf411.pdf
 $ENDCMP
 #
+$CMP Q_DUAL_N_JFET
+D Dual N-JFET transistor, drain/gate/source
+K transistor NJFET N-JFET
+F ~
+$ENDCMP
+#
 #End Doc Library
