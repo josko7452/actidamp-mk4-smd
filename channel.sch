@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -176,6 +176,7 @@ F 0 "L1" V 2040 3150 50  0000 C CNN
 F 1 "220uH" V 1949 3150 50  0000 C CNN
 F 2 "" H 1850 3150 50  0001 C CNN
 F 3 "~" H 1850 3150 50  0001 C CNN
+F 4 "NLFV32T-221K-EF" V 1850 3150 50  0001 C CNN "Part number"
 	1    1850 3150
 	0    -1   -1   0   
 $EndComp
@@ -1613,6 +1614,7 @@ F 0 "Q1" H 2991 3496 50  0000 L CNN
 F 1 "2SK3320" H 2400 3600 50  0000 L CNN
 F 2 "" H 3000 3550 50  0001 C CNN
 F 3 "~" H 2800 3450 50  0001 C CNN
+F 4 "2SK3320" H 0   0   50  0001 C CNN "Part number"
 	1    2800 3450
 	1    0    0    -1  
 $EndComp
@@ -1627,6 +1629,7 @@ F 0 "Q1" H 3690 3496 50  0000 L CNN
 F 1 "2SK3320" H 3100 3600 50  0000 L CNN
 F 2 "" H 3700 3550 50  0001 C CNN
 F 3 "~" H 3500 3450 50  0001 C CNN
+F 4 "2SK3320" H 0   0   50  0001 C CNN "Part number"
 	2    3500 3450
 	-1   0    0    -1  
 $EndComp
@@ -1886,7 +1889,7 @@ AR Path="/5C7379E1/5D8483EE" Ref="SW102"  Part="1"
 F 0 "SW2" H 5750 2600 50  0000 C CNN
 F 1 "SW_SP3T" H 5750 2700 50  0000 C CNN
 F 2 "" H 5125 3125 50  0001 C CNN
-F 3 "~" H 5125 3125 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2604289.pdf" H 5125 3125 50  0001 C CNN
 F 4 "CL-SB-13B-02T" H 0   0   50  0001 C CNN "Part number"
 	1    5750 2950
 	-1   0    0    -1  
