@@ -210,24 +210,28 @@ Wire Wire Line
 Wire Wire Line
 	5300 3350 5500 3350
 $Comp
-L Device:CP C105
+L Device:C C105
 U 1 1 5D8EA5F7
 P 4850 2700
 F 0 "C105" H 4968 2746 50  0000 L CNN
 F 1 "10u" H 4968 2655 50  0000 L CNN
 F 2 "" H 4888 2550 50  0001 C CNN
 F 3 "~" H 4850 2700 50  0001 C CNN
+F 4 "X7R/X5R 25V 1206" H 0   0   50  0001 C CNN "Parameters"
+F 5 "C1206C106K3PACTU" H 0   0   50  0001 C CNN "Part number"
 	1    4850 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C103
+L Device:C C103
 U 1 1 5D8EA64D
 P 4450 2700
 F 0 "C103" H 4568 2746 50  0000 L CNN
 F 1 "10u" H 4568 2655 50  0000 L CNN
 F 2 "" H 4488 2550 50  0001 C CNN
 F 3 "~" H 4450 2700 50  0001 C CNN
+F 4 "X7R/X5R 25V 1206" H 4450 2700 50  0001 C CNN "Parameters"
+F 5 "C1206C106K3PACTU" H 0   0   50  0001 C CNN "Part number"
 	1    4450 2700
 	1    0    0    -1  
 $EndComp
@@ -266,8 +270,9 @@ F 0 "U101" H 3350 2742 50  0000 C CNN
 F 1 "LM317_3PinPackage" H 3350 2651 50  0000 C CNN
 F 2 "" H 3350 2750 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 3350 2500 50  0001 C CNN
-F 4 "	FK 244 13 D PAK" H 0   0   50  0001 C CNN "Additional"
+F 4 "" H 0   0   50  0001 C CNN "Additional"
 F 5 "LM317MDTX" H 3350 2500 50  0001 C CNN "Part number"
+F 6 "TO-252" H 0   0   50  0001 C CNN "Parameters"
 	1    3350 2500
 	1    0    0    -1  
 $EndComp
@@ -280,6 +285,7 @@ F 1 "LM337_TO252" H 3350 3799 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 3350 3750 50  0001 C CIN
 F 3 "http://www.farnell.com/datasheets/1636957.pdf" H 3350 3950 50  0001 C CNN
 F 4 "LM337KVURG3" H 0   0   50  0001 C CNN "Part number"
+F 5 "TO-252" H 0   0   50  0001 C CNN "Parameters"
 	1    3350 3950
 	1    0    0    1   
 $EndComp
@@ -291,6 +297,8 @@ F 0 "C101" H 2718 2746 50  0000 L CNN
 F 1 "220u" H 2718 2655 50  0000 L CNN
 F 2 "" H 2638 2550 50  0001 C CNN
 F 3 "~" H 2600 2700 50  0001 C CNN
+F 4 "EEE1HA221UAP" H 0   0   50  0001 C CNN "Part number"
+F 5 "SMT Electrolytic 25V" H 0   0   50  0001 C CNN "Parameters"
 	1    2600 2700
 	1    0    0    -1  
 $EndComp
@@ -325,10 +333,12 @@ $Comp
 L Device:D D103
 U 1 1 5D8F0F6F
 P 4050 2700
-F 0 "D103" V 4004 2779 50  0000 L CNN
-F 1 "D" V 4095 2779 50  0000 L CNN
+F 0 "D103" V 4350 2650 50  0000 L CNN
+F 1 "D" V 4450 2650 50  0000 L CNN
 F 2 "" H 4050 2700 50  0001 C CNN
 F 3 "~" H 4050 2700 50  0001 C CNN
+F 4 "BAS20" H 0   0   50  0001 C CNN "Part number"
+F 5 "100mA general purpose" H 0   0   50  0001 C CNN "Parameters"
 	1    4050 2700
 	0    1    1    0   
 $EndComp
@@ -336,10 +346,12 @@ $Comp
 L Device:R R103
 U 1 1 5D8F102E
 P 3800 2700
-F 0 "R103" H 3870 2746 50  0000 L CNN
-F 1 "R" H 3870 2655 50  0000 L CNN
+F 0 "R103" H 3700 2400 50  0000 L CNN
+F 1 "240 1%" H 3700 2300 50  0000 L CNN
 F 2 "" V 3730 2700 50  0001 C CNN
 F 3 "~" H 3800 2700 50  0001 C CNN
+F 4 "ERA3AEB241V" H 0   0   50  0001 C CNN "Part number"
+F 5 "Thin Film 0603" H 0   0   50  0001 C CNN "Parameters"
 	1    3800 2700
 	1    0    0    -1  
 $EndComp
@@ -360,10 +372,12 @@ $Comp
 L Device:R R101
 U 1 1 5D8F4A8C
 P 3350 3100
-F 0 "R101" H 3420 3146 50  0000 L CNN
-F 1 "R" H 3420 3055 50  0000 L CNN
+F 0 "R101" H 3400 3100 50  0000 L CNN
+F 1 "3400 1%" H 3400 3000 50  0000 L CNN
 F 2 "" V 3280 3100 50  0001 C CNN
 F 3 "~" H 3350 3100 50  0001 C CNN
+F 4 "MCWF06R3401BTL" H 0   0   50  0001 C CNN "Part number"
+F 5 "Thin Film 0603" H 0   0   50  0001 C CNN "Parameters"
 	1    3350 3100
 	1    0    0    -1  
 $EndComp
@@ -389,7 +403,6 @@ Wire Wire Line
 	3350 2800 3350 2900
 Wire Wire Line
 	3800 2850 3800 2900
-Connection ~ 3800 2900
 Wire Wire Line
 	3800 2900 4050 2900
 Wire Wire Line
@@ -403,30 +416,35 @@ F 1 "D" H 2250 2375 50  0000 C CNN
 F 2 "" H 2250 2500 50  0001 C CNN
 F 3 "~" H 2250 2500 50  0001 C CNN
 F 4 "MRA4003T3G" H 0   0   50  0001 C CNN "Part number"
+F 5 "1A general purpose" H 0   0   50  0001 C CNN "Parameters"
 	1    2250 2500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2400 2500 2600 2500
 $Comp
-L Device:CP C106
+L Device:C C106
 U 1 1 5D8FE2B6
 P 4850 4150
 F 0 "C106" H 4732 4104 50  0000 R CNN
 F 1 "10u" H 4732 4195 50  0000 R CNN
 F 2 "" H 4888 4000 50  0001 C CNN
 F 3 "~" H 4850 4150 50  0001 C CNN
+F 4 "X7R/X5R 25V 1206" H 0   0   50  0001 C CNN "Parameters"
+F 5 "C1206C106K3PACTU" H 0   0   50  0001 C CNN "Part number"
 	1    4850 4150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP C104
+L Device:C C104
 U 1 1 5D8FE2BC
 P 4450 4150
 F 0 "C104" H 4332 4104 50  0000 R CNN
 F 1 "10u" H 4332 4195 50  0000 R CNN
 F 2 "" H 4488 4000 50  0001 C CNN
 F 3 "~" H 4450 4150 50  0001 C CNN
+F 4 "X7R/X5R 25V 1206" H 0   0   50  0001 C CNN "Parameters"
+F 5 "C1206C106K3PACTU" H 0   0   50  0001 C CNN "Part number"
 	1    4450 4150
 	-1   0    0    1   
 $EndComp
@@ -464,6 +482,8 @@ F 0 "C102" H 2482 4104 50  0000 R CNN
 F 1 "220u" H 2482 4195 50  0000 R CNN
 F 2 "" H 2638 4000 50  0001 C CNN
 F 3 "~" H 2600 4150 50  0001 C CNN
+F 4 "EEE1HA221UAP" H 0   0   50  0001 C CNN "Part number"
+F 5 "SMT Electrolytic 25V" H 0   0   50  0001 C CNN "Parameters"
 	1    2600 4150
 	-1   0    0    1   
 $EndComp
@@ -496,10 +516,12 @@ $Comp
 L Device:D D104
 U 1 1 5D8FE2EB
 P 4050 4150
-F 0 "D104" V 4096 4229 50  0000 L CNN
-F 1 "D" V 4005 4229 50  0000 L CNN
+F 0 "D104" V 3750 4100 50  0000 L CNN
+F 1 "D" V 3650 4100 50  0000 L CNN
 F 2 "" H 4050 4150 50  0001 C CNN
 F 3 "~" H 4050 4150 50  0001 C CNN
+F 4 "BAS20" H 0   0   50  0001 C CNN "Part number"
+F 5 "100mA general purpose" H 0   0   50  0001 C CNN "Parameters"
 	1    4050 4150
 	0    1    -1   0   
 $EndComp
@@ -507,10 +529,12 @@ $Comp
 L Device:R R104
 U 1 1 5D8FE2F1
 P 3800 4150
-F 0 "R104" H 3870 4196 50  0000 L CNN
-F 1 "R" H 3870 4105 50  0000 L CNN
+F 0 "R104" H 3700 3850 50  0000 L CNN
+F 1 "240 1%" H 3700 3750 50  0000 L CNN
 F 2 "" V 3730 4150 50  0001 C CNN
 F 3 "~" H 3800 4150 50  0001 C CNN
+F 4 "ERA3AEB241V" H 0   0   50  0001 C CNN "Part number"
+F 5 "Thin Film 0603" H 0   0   50  0001 C CNN "Parameters"
 	1    3800 4150
 	1    0    0    -1  
 $EndComp
@@ -531,10 +555,12 @@ $Comp
 L Device:R R102
 U 1 1 5D8FE2FF
 P 3350 4550
-F 0 "R102" H 3420 4596 50  0000 L CNN
-F 1 "R" H 3420 4505 50  0000 L CNN
+F 0 "R102" H 3400 4550 50  0000 L CNN
+F 1 "3400 1%" H 3400 4450 50  0000 L CNN
 F 2 "" V 3280 4550 50  0001 C CNN
 F 3 "~" H 3350 4550 50  0001 C CNN
+F 4 "MCWF06R3401BTL" H 0   0   50  0001 C CNN "Part number"
+F 5 "Thin Film 0603" H 0   0   50  0001 C CNN "Parameters"
 	1    3350 4550
 	1    0    0    -1  
 $EndComp
@@ -574,6 +600,7 @@ F 1 "D" H 2250 3825 50  0000 C CNN
 F 2 "" H 2250 3950 50  0001 C CNN
 F 3 "~" H 2250 3950 50  0001 C CNN
 F 4 "MRA4003T3G" H 0   0   50  0001 C CNN "Part number"
+F 5 "1A general purpose" H 0   0   50  0001 C CNN "Parameters"
 	1    2250 3950
 	1    0    0    1   
 $EndComp
@@ -667,6 +694,7 @@ F 1 "Heatsink_Pad" H 3941 2200 50  0000 L CNN
 F 2 "" H 3812 2200 50  0001 C CNN
 F 3 "~" H 3812 2200 50  0001 C CNN
 F 4 "FK 244 13 D PAK" H 3800 2250 50  0001 C CNN "Part number"
+F 5 "SMT for TO-252" H 0   0   50  0001 C CNN "Parameters"
 	1    3800 2250
 	1    0    0    -1  
 $EndComp
@@ -679,6 +707,7 @@ F 1 "Heatsink_Pad" H 2741 3600 50  0000 L CNN
 F 2 "" H 2612 3600 50  0001 C CNN
 F 3 "~" H 2612 3600 50  0001 C CNN
 F 4 "FK 244 13 D PAK" H 2600 3650 50  0001 C CNN "Part number"
+F 5 "SMT for TO-252" H 0   0   50  0001 C CNN "Parameters"
 	1    2600 3650
 	1    0    0    -1  
 $EndComp
@@ -788,4 +817,9 @@ $EndComp
 Wire Wire Line
 	2100 3100 2100 3250
 Connection ~ 2100 3250
+Connection ~ 3800 2900
+Text Notes 2800 2050 0    50   ~ 0
+The output of regulators should be +- approx. 18.5\nThat makes +- approx. 17.5 after psu_rails capacitor multiplier
+Text Notes 1300 4000 1    50   ~ 0
+Input in range of +-25 up to +-35V
 $EndSCHEMATC
