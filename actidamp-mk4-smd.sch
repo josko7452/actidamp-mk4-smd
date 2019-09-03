@@ -38,25 +38,25 @@ $Comp
 L Connector:Barrel_Jack_Switch J103
 U 1 1 5D8D1D2C
 P 7050 4050
-F 0 "J103" H 7105 4367 50  0000 C CNN
-F 1 "PHONO_IN_L" H 7105 4276 50  0000 C CNN
-F 2 "" H 7100 4010 50  0001 C CNN
+F 0 "J103" H 6950 5000 50  0000 C CNN
+F 1 "PHONO_IN_L" H 7100 3850 50  0000 C CNN
+F 2 "actidamp-mk4-smd:RCA_x1_PJRAN1X1U" H 7100 4010 50  0001 C CNN
 F 3 "~" H 7100 4010 50  0001 C CNN
 F 4 "PJRAN1X1U02AUX" H 7050 4050 50  0001 C CNN "Part number"
 	1    7050 4050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Barrel_Jack_Switch J104
 U 1 1 5D8D7FFB
 P 7050 4650
-F 0 "J104" H 7050 5000 50  0000 C CNN
-F 1 "PHONO_IN_R" H 7100 4900 50  0000 C CNN
-F 2 "" H 7100 4610 50  0001 C CNN
+F 0 "J104" H 6950 5550 50  0000 C CNN
+F 1 "PHONO_IN_R" H 7050 4400 50  0000 C CNN
+F 2 "actidamp-mk4-smd:RCA_x1_PJRAN1X1U" H 7100 4610 50  0001 C CNN
 F 3 "~" H 7100 4610 50  0001 C CNN
 F 4 "PJRAN1X1U03AUX" H 2850 1350 50  0001 C CNN "Part number"
 	1    7050 4650
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0110
@@ -69,35 +69,29 @@ F 3 "" H 7450 4350 50  0001 C CNN
 	1    7450 4350
 	0    -1   -1   0   
 $EndComp
-Connection ~ 7350 4150
-Wire Wire Line
-	7350 4150 7350 4050
-Wire Wire Line
-	7350 4650 7350 4550
-Connection ~ 7350 4550
 $Comp
 L Connector:Barrel_Jack_Switch J105
 U 1 1 5D8D8A65
 P 9900 4050
-F 0 "J105" H 9955 4367 50  0000 C CNN
-F 1 "LINE_OUT_L" H 9955 4276 50  0000 C CNN
-F 2 "" H 9950 4010 50  0001 C CNN
+F 0 "J105" H 10000 3850 50  0000 C CNN
+F 1 "LINE_OUT_L" H 9900 3750 50  0000 C CNN
+F 2 "actidamp-mk4-smd:RCA_x1_PJRAN1X1U" H 9950 4010 50  0001 C CNN
 F 3 "~" H 9950 4010 50  0001 C CNN
 F 4 "PJRAN1X1U02AUX" H 3550 1150 50  0001 C CNN "Part number"
 	1    9900 4050
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Barrel_Jack_Switch J106
 U 1 1 5D8D8A6B
 P 9900 4450
-F 0 "J106" H 9950 4800 50  0000 C CNN
-F 1 "LINE_OUT_R" H 9950 4700 50  0000 C CNN
-F 2 "" H 9950 4410 50  0001 C CNN
+F 0 "J106" H 10000 4150 50  0000 C CNN
+F 1 "LINE_OUT_R" H 9900 4250 50  0000 C CNN
+F 2 "actidamp-mk4-smd:RCA_x1_PJRAN1X1U" H 9950 4410 50  0001 C CNN
 F 3 "~" H 9950 4410 50  0001 C CNN
 F 4 "PJRAN1X1U03AUX" H 3550 1150 50  0001 C CNN "Part number"
 	1    9900 4450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
@@ -112,21 +106,11 @@ F 3 "" H 9500 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 4250 9600 4250
-Wire Wire Line
-	9600 4250 9600 4150
 Connection ~ 9600 4250
-Wire Wire Line
-	9600 4350 9600 4250
 Wire Wire Line
 	9600 4550 9350 4550
 Wire Wire Line
 	9600 3950 9350 3950
-Wire Wire Line
-	9600 4450 9600 4350
-Connection ~ 9600 4350
-Wire Wire Line
-	9600 4150 9600 4050
-Connection ~ 9600 4150
 $Comp
 L Connector:Screw_Terminal_01x01 J102
 U 1 1 5D8DA7EF
@@ -153,8 +137,6 @@ $EndSheet
 Wire Wire Line
 	6500 2650 7750 2650
 Wire Wire Line
-	8100 2650 8100 3800
-Wire Wire Line
 	8100 3800 8300 3800
 $Sheet
 S 5500 3050 1000 450 
@@ -167,12 +149,8 @@ F4 "Vreg+" I L 5500 3200 50
 F5 "Vreg-" I L 5500 3350 50 
 $EndSheet
 Wire Wire Line
-	7350 4150 7350 4350
-Wire Wire Line
 	7450 4350 7350 4350
 Connection ~ 7350 4350
-Wire Wire Line
-	7350 4350 7350 4550
 Wire Wire Line
 	7350 4350 7200 4350
 Wire Wire Line
@@ -268,7 +246,7 @@ U 1 1 5D8ED0E7
 P 3350 2500
 F 0 "U101" H 3350 2742 50  0000 C CNN
 F 1 "LM317_3PinPackage" H 3350 2651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 3350 2750 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3350 2750 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 3350 2500 50  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Additional"
 F 5 "LM317MDTX" H 3350 2500 50  0001 C CNN "Part number"
@@ -282,7 +260,7 @@ U 1 1 5D8ED1A0
 P 3350 3950
 F 0 "U102" H 3350 3708 50  0000 C CNN
 F 1 "LM337_TO252" H 3350 3799 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 3350 3750 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3350 3750 50  0001 C CIN
 F 3 "http://www.farnell.com/datasheets/1636957.pdf" H 3350 3950 50  0001 C CNN
 F 4 "LM337KVURG3" H 0   0   50  0001 C CNN "Part number"
 F 5 "TO-252" H 0   0   50  0001 C CNN "Parameters"
@@ -691,7 +669,7 @@ U 1 1 5D6E5FA9
 P 3800 2250
 F 0 "HS102" H 3941 2291 50  0000 L CNN
 F 1 "Heatsink_Pad" H 3941 2200 50  0000 L CNN
-F 2 "" H 3812 2200 50  0001 C CNN
+F 2 "actidamp-mk4-smd:Heatsink_TO252_573100" H 3812 2200 50  0001 C CNN
 F 3 "~" H 3812 2200 50  0001 C CNN
 F 4 "FK 244 13 D PAK" H 3800 2250 50  0001 C CNN "Part number"
 F 5 "SMT for TO-252" H 0   0   50  0001 C CNN "Parameters"
@@ -704,7 +682,7 @@ U 1 1 5D6E8654
 P 2600 3650
 F 0 "HS101" H 2741 3691 50  0000 L CNN
 F 1 "Heatsink_Pad" H 2741 3600 50  0000 L CNN
-F 2 "" H 2612 3600 50  0001 C CNN
+F 2 "actidamp-mk4-smd:Heatsink_TO252_573100" H 2612 3600 50  0001 C CNN
 F 3 "~" H 2612 3600 50  0001 C CNN
 F 4 "FK 244 13 D PAK" H 2600 3650 50  0001 C CNN "Part number"
 F 5 "SMT for TO-252" H 0   0   50  0001 C CNN "Parameters"
@@ -822,4 +800,22 @@ Text Notes 2800 2050 0    50   ~ 0
 The output of regulators should be +- approx. 18.5\nThat makes +- approx. 17.5 after psu_rails capacitor multiplier
 Text Notes 1300 4000 1    50   ~ 0
 Input in range of +-25 up to +-35V
+Wire Wire Line
+	8100 2650 8100 3800
+Wire Wire Line
+	7350 4050 7350 4150
+Wire Wire Line
+	7350 4350 7350 4550
+Wire Wire Line
+	7350 4550 7350 4650
+Connection ~ 7350 4550
+Wire Wire Line
+	7350 4350 7350 4150
+Connection ~ 7350 4150
+Wire Wire Line
+	9600 4250 9600 4350
+Wire Wire Line
+	9600 4250 9600 4150
+NoConn ~ 9600 4050
+NoConn ~ 9600 4450
 $EndSCHEMATC

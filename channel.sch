@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5C72F90C/5C7337B5" Ref="SW201"  Part="1"
 AR Path="/5C7379E1/5C7337B5" Ref="SW301"  Part="1" 
 F 0 "SW201" V 1404 3520 50  0000 R CNN
 F 1 "SW_DIP_x04" V 1495 3520 50  0000 R CNN
-F 2 "" H 1450 3750 50  0001 C CNN
+F 2 "actidamp-mk4-smd:SW_DIP_SPSTx04_Slide_TE_1571983-5_W6.2mm_P1.27mm" H 1450 3750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1647573.pdf" H 1450 3750 50  0001 C CNN
 F 4 "1571983-5" H 0   0   50  0001 C CNN "Part number"
 	1    1450 3750
@@ -357,21 +357,6 @@ F 5 "Thin Film 0603" H 0   0   50  0001 C CNN "Parameters"
 $EndComp
 Wire Wire Line
 	2750 3000 2900 3000
-$Comp
-L Amplifier_Operational:NE5534 U?
-U 1 1 5C733887
-P 3300 4800
-AR Path="/5C733887" Ref="U?"  Part="1" 
-AR Path="/5C72F90C/5C733887" Ref="U201"  Part="1" 
-AR Path="/5C7379E1/5C733887" Ref="U301"  Part="1" 
-F 0 "U201" H 3350 5350 50  0000 L CNN
-F 1 "NE5534" H 3200 5450 50  0000 L CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3350 4850 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3350 4950 50  0001 C CNN
-F 4 "NE5534DG" H 0   0   50  0001 C CNN "Part number"
-	1    3300 4800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3000 4800 2600 4800
 Wire Wire Line
@@ -405,7 +390,7 @@ AR Path="/5C72F90C/5C7338B5" Ref="U203"  Part="1"
 AR Path="/5C7379E1/5C7338B5" Ref="U303"  Part="1" 
 F 0 "U203" H 4841 4796 50  0000 L CNN
 F 1 "LF411" H 4841 4705 50  0000 L CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 4550 4800 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4550 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lf411.pdf" H 4650 4900 50  0001 C CNN
 F 4 "LF411CD" H 0   0   50  0001 C CNN "Part number"
 	1    4500 4750
@@ -420,7 +405,7 @@ AR Path="/5C72F90C/5C7338BC" Ref="C212"  Part="1"
 AR Path="/5C7379E1/5C7338BC" Ref="C312"  Part="1" 
 F 0 "C212" V 4248 5450 50  0000 C CNN
 F 1 "680n" V 4339 5450 50  0000 C CNN
-F 2 "" H 4538 5300 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 4538 5300 50  0001 C CNN
 F 3 "~" H 4500 5450 50  0001 C CNN
 F 4 "SMDIC03680TB00KQ00" V 4500 5450 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -512,7 +497,7 @@ AR Path="/5C72F90C/5C7338EB" Ref="C211"  Part="1"
 AR Path="/5C7379E1/5C7338EB" Ref="C311"  Part="1" 
 F 0 "C211" V 4148 3450 50  0000 C CNN
 F 1 "1u" V 4239 3450 50  0000 C CNN
-F 2 "" H 4438 3300 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 4438 3300 50  0001 C CNN
 F 3 "~" H 4400 3450 50  0001 C CNN
 F 4 "SMDIC04100TB00KQ00" H 0   0   50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -635,7 +620,7 @@ AR Path="/5C72F90C/5C733931" Ref="C217"  Part="1"
 AR Path="/5C7379E1/5C733931" Ref="C317"  Part="1" 
 F 0 "C217" H 5665 4846 50  0000 L CNN
 F 1 "680n" H 5665 4755 50  0000 L CNN
-F 2 "" H 5588 4650 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 5588 4650 50  0001 C CNN
 F 3 "~" H 5550 4800 50  0001 C CNN
 F 4 "SMDIC03680TB00KQ00" H 5550 4800 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -684,8 +669,6 @@ F 5 "Thin Film 0603" H 0   0   50  0001 C CNN "Parameters"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2800 4500 2800 5100
-Wire Wire Line
 	2600 4100 2850 4100
 $Comp
 L Device:C C?
@@ -703,28 +686,6 @@ F 5 "C0G 0603" H 0   0   50  0001 C CNN "Parameters"
 	1    3000 4100
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5C768943
-P 3050 5100
-AR Path="/5C768943" Ref="C?"  Part="1" 
-AR Path="/5C72F90C/5C768943" Ref="C209"  Part="1" 
-AR Path="/5C7379E1/5C768943" Ref="C309"  Part="1" 
-F 0 "C209" V 2798 5100 50  0000 C CNN
-F 1 "10p" V 2889 5100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4950 50  0001 C CNN
-F 3 "~" H 3050 5100 50  0001 C CNN
-F 4 "MC0603N100J500CT" V 3050 5100 50  0001 C CNN "Part number"
-F 5 "C0G 0603" H 0   0   50  0001 C CNN "Parameters"
-	1    3050 5100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 5100 3200 5100
-Wire Wire Line
-	2900 5100 2800 5100
-Wire Wire Line
-	2800 4500 3200 4500
 Wire Wire Line
 	2850 4350 2600 4350
 Connection ~ 2600 4350
@@ -818,7 +779,7 @@ AR Path="/5C72F90C/5C7BB859" Ref="C210"  Part="1"
 AR Path="/5C7379E1/5C7BB859" Ref="C310"  Part="1" 
 F 0 "C210" H 3950 4800 50  0000 L CNN
 F 1 "1u" H 3950 4700 50  0000 L CNN
-F 2 "" H 4038 4950 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 4038 4950 50  0001 C CNN
 F 3 "~" H 4000 5100 50  0001 C CNN
 F 4 "SMDIC04100TB00KQ00" H 0   0   50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -854,7 +815,7 @@ AR Path="/5C72F90C/5C85B701" Ref="C221"  Part="1"
 AR Path="/5C7379E1/5C85B701" Ref="C321"  Part="1" 
 F 0 "C221" H 6900 3550 50  0000 L CNN
 F 1 "120n" H 6900 3450 50  0000 L CNN
-F 2 "" H 6988 3000 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2416_6041Metric_Pad1.5x3.8mm_HandSolder" H 6988 3000 50  0001 C CNN
 F 3 "~" H 6950 3150 50  0001 C CNN
 F 4 "ECHU1H124GX9" H 6950 3150 50  0001 C CNN "Part number"
 F 5 "PPS 2416" H 6950 3150 50  0001 C CNN "Parameters"
@@ -870,7 +831,7 @@ AR Path="/5C72F90C/5C85B785" Ref="C222"  Part="1"
 AR Path="/5C7379E1/5C85B785" Ref="C322"  Part="1" 
 F 0 "C222" H 7100 3550 50  0000 L CNN
 F 1 "120n" H 7100 3450 50  0000 L CNN
-F 2 "" H 7188 3000 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2416_6041Metric_Pad1.5x3.8mm_HandSolder" H 7188 3000 50  0001 C CNN
 F 3 "~" H 7150 3150 50  0001 C CNN
 F 4 "ECHU1H124GX9" H 7150 3150 50  0001 C CNN "Part number"
 F 5 "PPS 2416" H 7150 3150 50  0001 C CNN "Parameters"
@@ -886,7 +847,7 @@ AR Path="/5C72F90C/5C85B809" Ref="C223"  Part="1"
 AR Path="/5C7379E1/5C85B809" Ref="C323"  Part="1" 
 F 0 "C223" H 7300 3550 50  0000 L CNN
 F 1 "47n" H 7300 3450 50  0000 L CNN
-F 2 "" H 7388 3000 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_1913_4833Metric_Pad1.3x3.00mm_HandSolder" H 7388 3000 50  0001 C CNN
 F 3 "~" H 7350 3150 50  0001 C CNN
 F 4 "ECHU1H473GX9" H 7350 3150 50  0001 C CNN "Part number"
 F 5 "" H 7350 3150 50  0001 C CNN "Paremeters"
@@ -919,7 +880,7 @@ AR Path="/5C72F90C/5C88EE9E" Ref="C224"  Part="1"
 AR Path="/5C7379E1/5C88EE9E" Ref="C324"  Part="1" 
 F 0 "C224" H 7050 3600 50  0000 L CNN
 F 1 "220p" H 7050 3500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7388 3400 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 7388 3400 50  0001 C CNN
 F 3 "~" H 7350 3550 50  0001 C CNN
 F 4 "ECHU1H221GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "PPS 0805" H 0   0   50  0001 C CNN "Parameters"
@@ -1041,7 +1002,7 @@ AR Path="/5C72F90C/5C9459DC" Ref="C225"  Part="1"
 AR Path="/5C7379E1/5C9459DC" Ref="C325"  Part="1" 
 F 0 "C225" H 8550 3650 50  0000 R CNN
 F 1 "2.7n" H 8600 3550 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 3100 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 8538 3100 50  0001 C CNN
 F 3 "~" H 8500 3250 50  0001 C CNN
 F 4 "ECHU1H272GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "" H 0   0   50  0001 C CNN "Paremeters"
@@ -1058,7 +1019,7 @@ AR Path="/5C72F90C/5C9459E2" Ref="C227"  Part="1"
 AR Path="/5C7379E1/5C9459E2" Ref="C327"  Part="1" 
 F 0 "C227" H 8650 3650 50  0000 L CNN
 F 1 "2.7n" H 8650 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8738 3100 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 8738 3100 50  0001 C CNN
 F 3 "~" H 8700 3250 50  0001 C CNN
 F 4 "ECHU1H272GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "" H 0   0   50  0001 C CNN "Paremeters"
@@ -1075,7 +1036,7 @@ AR Path="/5C72F90C/5C9459E8" Ref="C228"  Part="1"
 AR Path="/5C7379E1/5C9459E8" Ref="C328"  Part="1" 
 F 0 "C228" H 8850 3650 50  0000 L CNN
 F 1 "2.7n" H 8850 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3100 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 8938 3100 50  0001 C CNN
 F 3 "~" H 8900 3250 50  0001 C CNN
 F 4 "ECHU1H272GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "" H 0   0   50  0001 C CNN "Paremeters"
@@ -1168,7 +1129,7 @@ AR Path="/5C72F90C/5CA3594F" Ref="U205"  Part="1"
 AR Path="/5C7379E1/5CA3594F" Ref="U305"  Part="1" 
 F 0 "U205" H 8900 5050 50  0000 C CNN
 F 1 "LF411" H 8850 4950 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 8700 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8700 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lf411.pdf" H 8800 4800 50  0001 C CNN
 F 4 "LF411CD" H 0   0   50  0001 C CNN "Part number"
 	1    8650 4650
@@ -1185,7 +1146,7 @@ AR Path="/5C72F90C/5CA3CB4B" Ref="C226"  Part="1"
 AR Path="/5C7379E1/5CA3CB4B" Ref="C326"  Part="1" 
 F 0 "C226" V 8248 5500 50  0000 C CNN
 F 1 "680n" V 8339 5500 50  0000 C CNN
-F 2 "" H 8538 5350 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 8538 5350 50  0001 C CNN
 F 3 "~" H 8500 5500 50  0001 C CNN
 F 4 "SMDIC03680TB00KQ00" V 8500 5500 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -1239,7 +1200,7 @@ AR Path="/5C72F90C/5CA69725" Ref="C229"  Part="1"
 AR Path="/5C7379E1/5CA69725" Ref="C329"  Part="1" 
 F 0 "C229" H 9115 4396 50  0000 L CNN
 F 1 "680n" H 9115 4305 50  0000 L CNN
-F 2 "" H 9038 4200 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 9038 4200 50  0001 C CNN
 F 3 "~" H 9000 4350 50  0001 C CNN
 F 4 "SMDIC03680TB00KQ00" H 9000 4350 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -1378,17 +1339,17 @@ Wire Wire Line
 Wire Wire Line
 	8750 5000 8750 4950
 $Comp
-L Amplifier_Operational:NE5532 U202
-U 1 1 5CFDF7B0
+L Amplifier_Operational:NE5532 U201
+U 2 1 5CFDF7B0
 P 3900 2900
-AR Path="/5C72F90C/5CFDF7B0" Ref="U202"  Part="1" 
-AR Path="/5C7379E1/5CFDF7B0" Ref="U302"  Part="1" 
-F 0 "U202" H 3900 3267 50  0000 C CNN
+AR Path="/5C72F90C/5CFDF7B0" Ref="U201"  Part="2" 
+AR Path="/5C7379E1/5CFDF7B0" Ref="U301"  Part="1" 
+F 0 "U201" H 3900 3267 50  0000 C CNN
 F 1 "NE5532" H 3900 3176 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3900 2900 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 2900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3900 2900 50  0001 C CNN
 F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
-	1    3900 2900
+	2    3900 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1399,7 +1360,7 @@ AR Path="/5C72F90C/5CFDF879" Ref="U204"  Part="2"
 AR Path="/5C7379E1/5CFDF879" Ref="U304"  Part="2" 
 F 0 "U204" H 7850 3417 50  0000 C CNN
 F 1 "NE5532" H 7850 3326 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 7850 3050 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7850 3050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 7850 3050 50  0001 C CNN
 F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
 	2    7850 3050
@@ -1413,7 +1374,7 @@ AR Path="/5C72F90C/5CFDF93A" Ref="U204"  Part="3"
 AR Path="/5C7379E1/5CFDF93A" Ref="U304"  Part="3" 
 F 0 "U204" H 10058 2246 50  0000 L CNN
 F 1 "NE5532" H 10058 2155 50  0000 L CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 10100 2200 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10100 2200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 10100 2200 50  0001 C CNN
 F 4 "NE5534ADG" H 0   -100 50  0001 C CNN "Part number"
 	3    10100 2200
@@ -1427,38 +1388,10 @@ AR Path="/5C72F90C/5CFE0205" Ref="U204"  Part="1"
 AR Path="/5C7379E1/5CFE0205" Ref="U304"  Part="1" 
 F 0 "U204" H 10000 3517 50  0000 C CNN
 F 1 "NE5532" H 10000 3426 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 10000 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10000 3150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 10000 3150 50  0001 C CNN
 F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
 	1    10000 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:NE5532 U202
-U 2 1 5CFE8479
-P 6150 2150
-AR Path="/5C72F90C/5CFE8479" Ref="U202"  Part="2" 
-AR Path="/5C7379E1/5CFE8479" Ref="U302"  Part="2" 
-F 0 "U202" H 6150 2517 50  0000 C CNN
-F 1 "NE5532" H 6150 2426 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 6150 2150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 6150 2150 50  0001 C CNN
-F 4 "NE5534ADG" H -100 -100 50  0001 C CNN "Part number"
-	2    6150 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:NE5532 U202
-U 3 1 5CFF028B
-P 4000 1950
-AR Path="/5C72F90C/5CFF028B" Ref="U202"  Part="3" 
-AR Path="/5C7379E1/5CFF028B" Ref="U302"  Part="3" 
-F 0 "U202" H 3958 1996 50  0000 L CNN
-F 1 "NE5532" H 3958 1905 50  0000 L CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 4000 1950 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 4000 1950 50  0001 C CNN
-F 4 "NE5534ADG" H 0   -100 50  0001 C CNN "Part number"
-	3    4000 1950
 	1    0    0    -1  
 $EndComp
 Connection ~ 5250 4550
@@ -1471,7 +1404,7 @@ AR Path="/5C72F90C/5D0546AE" Ref="C213"  Part="1"
 AR Path="/5C7379E1/5D0546AE" Ref="C313"  Part="1" 
 F 0 "C213" H 4715 2096 50  0000 L CNN
 F 1 "470n" H 4715 2005 50  0000 L CNN
-F 2 "" H 4638 1900 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 4638 1900 50  0001 C CNN
 F 3 "~" H 4600 2050 50  0001 C CNN
 F 4 "SMDIC03470TB00MQ00" H 4600 2050 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -1485,9 +1418,9 @@ P 5000 2050
 AR Path="/5D0548C6" Ref="C?"  Part="1" 
 AR Path="/5C72F90C/5D0548C6" Ref="C215"  Part="1" 
 AR Path="/5C7379E1/5D0548C6" Ref="C315"  Part="1" 
-F 0 "C215" H 4750 2100 50  0000 L CNN
+F 0 "C215" H 4700 2100 50  0000 L CNN
 F 1 "470n" H 4700 1950 50  0000 L CNN
-F 2 "" H 5038 1900 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 5038 1900 50  0001 C CNN
 F 3 "~" H 5000 2050 50  0001 C CNN
 F 4 "SMDIC03470TB00MQ00" H 5000 2050 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -1503,7 +1436,7 @@ AR Path="/5C72F90C/5D054964" Ref="C216"  Part="1"
 AR Path="/5C7379E1/5D054964" Ref="C316"  Part="1" 
 F 0 "C216" H 5515 2096 50  0000 L CNN
 F 1 "470n" H 5515 2005 50  0000 L CNN
-F 2 "" H 5438 1900 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_2824_7260Metric_Pad3.20x4.45mm_HandSolder" H 5438 1900 50  0001 C CNN
 F 3 "~" H 5400 2050 50  0001 C CNN
 F 4 "SMDIC03470TB00MQ00" H 5400 2050 50  0001 C CNN "Part number"
 F 5 "PPS 2824" H 0   0   50  0001 C CNN "Parameters"
@@ -1634,16 +1567,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 1700 5200 1600
 Wire Wire Line
-	5200 1600 6450 1600
-Wire Wire Line
 	5200 2000 5200 2050
 Connection ~ 5200 2050
 Wire Wire Line
 	5200 2050 5250 2050
 Wire Wire Line
 	4450 2050 4300 2050
-Wire Wire Line
-	5850 2250 5850 2500
 $Comp
 L power:GND #PWR0212
 U 1 1 5D1889AA
@@ -1703,7 +1632,7 @@ AR Path="/5C72F90C/5D6404E5" Ref="C220"  Part="1"
 AR Path="/5C7379E1/5D6404E5" Ref="C320"  Part="1" 
 F 0 "C220" H 6700 3550 50  0000 L CNN
 F 1 "100n" H 6700 3450 50  0000 L CNN
-F 2 "" H 6788 3000 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_1913_4833Metric_Pad1.3x3.00mm_HandSolder" H 6788 3000 50  0001 C CNN
 F 3 "~" H 6750 3150 50  0001 C CNN
 F 4 "ECHU1H104GX9" H 6750 3150 50  0001 C CNN "Part number"
 F 5 "PPS 1913" H 0   0   50  0001 C CNN "Parameters"
@@ -1719,7 +1648,7 @@ AR Path="/5C72F90C/5D640587" Ref="C219"  Part="1"
 AR Path="/5C7379E1/5D640587" Ref="C319"  Part="1" 
 F 0 "C219" H 6500 3550 50  0000 L CNN
 F 1 "100n" H 6500 3450 50  0000 L CNN
-F 2 "" H 6588 3000 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_1913_4833Metric_Pad1.3x3.00mm_HandSolder" H 6588 3000 50  0001 C CNN
 F 3 "~" H 6550 3150 50  0001 C CNN
 F 4 "ECHU1H104GX9" H 6550 3150 50  0001 C CNN "Part number"
 F 5 "PPS 1913" H 0   0   50  0001 C CNN "Parameters"
@@ -1760,7 +1689,7 @@ AR Path="/5C72F90C/5D6C59A3" Ref="C230"  Part="1"
 AR Path="/5C7379E1/5D6C59A3" Ref="C330"  Part="1" 
 F 0 "C230" H 9050 3650 50  0000 L CNN
 F 1 "2.7n" H 9050 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9138 3100 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 9138 3100 50  0001 C CNN
 F 3 "~" H 9100 3250 50  0001 C CNN
 F 4 "ECHU1H272GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "" H 0   0   50  0001 C CNN "Paremeters"
@@ -1777,7 +1706,7 @@ AR Path="/5C72F90C/5D6C5A49" Ref="C231"  Part="1"
 AR Path="/5C7379E1/5D6C5A49" Ref="C331"  Part="1" 
 F 0 "C231" H 9250 3650 50  0000 L CNN
 F 1 "2.7n" H 9250 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9338 3100 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 9338 3100 50  0001 C CNN
 F 3 "~" H 9300 3250 50  0001 C CNN
 F 4 "ECHU1H272GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "" H 0   0   50  0001 C CNN "Paremeters"
@@ -1785,8 +1714,6 @@ F 6 "PPS 0805" H 0   0   50  0001 C CNN "Parameters"
 	1    9300 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5850 2500 6150 2500
 $Comp
 L Device:C C?
 U 1 1 5D6CFF17
@@ -1796,7 +1723,7 @@ AR Path="/5C72F90C/5D6CFF17" Ref="C218"  Part="1"
 AR Path="/5C7379E1/5D6CFF17" Ref="C318"  Part="1" 
 F 0 "C218" H 6300 3550 50  0000 L CNN
 F 1 "100n" H 6300 3450 50  0000 L CNN
-F 2 "" H 6388 3000 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_1913_4833Metric_Pad1.3x3.00mm_HandSolder" H 6388 3000 50  0001 C CNN
 F 3 "~" H 6350 3150 50  0001 C CNN
 F 4 "ECHU1H104GX9" H 6350 3150 50  0001 C CNN "Part number"
 F 5 "PPS 1913" H 0   0   50  0001 C CNN "Parameters"
@@ -1835,7 +1762,7 @@ AR Path="/5C72F90C/5D73C5BF" Ref="C232"  Part="1"
 AR Path="/5C7379E1/5D73C5BF" Ref="C332"  Part="1" 
 F 0 "C232" H 9450 3650 50  0000 L CNN
 F 1 "1.5n" H 9450 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9538 3100 50  0001 C CNN
+F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 9538 3100 50  0001 C CNN
 F 3 "~" H 9500 3250 50  0001 C CNN
 F 4 "ECHU1H152GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "" H 0   0   50  0001 C CNN "Paremeters"
@@ -1944,27 +1871,8 @@ Wire Wire Line
 	1450 4200 1350 4200
 Wire Wire Line
 	1350 4200 1350 4400
-$Comp
-L Switch:SW_SP3T SW202
-U 1 1 5D8483EE
-P 5750 2950
-AR Path="/5C72F90C/5D8483EE" Ref="SW202"  Part="1" 
-AR Path="/5C7379E1/5D8483EE" Ref="SW302"  Part="1" 
-F 0 "SW202" H 5750 2600 50  0000 C CNN
-F 1 "SW_SP3T" H 5750 2700 50  0000 C CNN
-F 2 "" H 5125 3125 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2604289.pdf" H 5125 3125 50  0001 C CNN
-F 4 "CL-SB-13B-02T" H 0   0   50  0001 C CNN "Part number"
-	1    5750 2950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 2900 4300 2900
-Wire Wire Line
-	6450 2500 6450 2150
-Connection ~ 6450 2150
-Wire Wire Line
-	6450 2150 6450 1600
 Wire Wire Line
 	4300 2050 4300 2900
 Connection ~ 4300 2900
@@ -1973,12 +1881,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2850 5550 2700
 Wire Wire Line
-	6150 2700 6150 2500
-Wire Wire Line
-	5550 2700 6150 2700
-Connection ~ 6150 2500
-Wire Wire Line
-	6150 2500 6450 2500
+	5550 2700 5850 2700
 Wire Wire Line
 	5550 3050 5000 3050
 Connection ~ 5000 3050
@@ -1990,15 +1893,9 @@ Text HLabel 8750 4300 1    50   Input ~ 0
 V+
 Wire Wire Line
 	3150 2000 3150 2150
-Text HLabel 3900 1650 1    50   Input ~ 0
-V+
 Text HLabel 3800 3800 2    50   Input ~ 0
 V-
-Text HLabel 3400 4500 1    50   Input ~ 0
-V-
 Text HLabel 4600 5050 3    50   Input ~ 0
-V-
-Text HLabel 3900 2250 3    50   Input ~ 0
 V-
 Text HLabel 8750 5000 3    50   Input ~ 0
 V-
@@ -2008,16 +1905,12 @@ Text HLabel 10000 2500 3    50   Input ~ 0
 V-
 Text HLabel 4600 4450 1    50   Input ~ 0
 V+
-Text HLabel 3400 5100 3    50   Input ~ 0
-V+
 Text HLabel 8000 5150 0    50   Input ~ 0
 V-
 Wire Wire Line
 	8050 5150 8000 5150
-NoConn ~ 5550 2950
 NoConn ~ 4400 5050
 NoConn ~ 4500 5050
-NoConn ~ 3300 4500
 Wire Wire Line
 	5250 5050 5400 5050
 $Comp
@@ -2055,5 +1948,133 @@ $EndComp
 Wire Wire Line
 	7550 4000 7550 3950
 Text Notes 800  1400 0    50   ~ 0
-All resistors are metal film
+All resistors are thin film / metal film
+$Comp
+L Device:R R?
+U 1 1 5D6E91E7
+P 9600 4550
+AR Path="/5D6E91E7" Ref="R?"  Part="1" 
+AR Path="/5C72F90C/5D6E91E7" Ref="R230"  Part="1" 
+AR Path="/5C7379E1/5D6E91E7" Ref="R330"  Part="1" 
+F 0 "R230" H 9670 4596 50  0000 L CNN
+F 1 "1M" H 9670 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4550 50  0001 C CNN
+F 3 "~" H 9600 4550 50  0001 C CNN
+F 4 "MCT06030C1004FP500" H -450 800 50  0001 C CNN "Part number"
+F 5 "Thin Film 0603" H -450 800 50  0001 C CNN "Parameters"
+	1    9600 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9000 4550 9450 4550
+Connection ~ 9000 4550
+Wire Wire Line
+	9750 4550 10500 4550
+Wire Wire Line
+	10500 4550 10500 3750
+Connection ~ 10500 3750
+$Comp
+L Switch:SW_DPDT_x2 SW202
+U 1 1 5D71A7DA
+P 5750 2950
+AR Path="/5C72F90C/5D71A7DA" Ref="SW202"  Part="1" 
+AR Path="/5C7379E1/5D71A7DA" Ref="SW202"  Part="2" 
+F 0 "SW202" H 5700 2650 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 5700 2500 50  0000 C CNN
+F 2 "actidamp-mk4-smd:Wurth_452403012014" H 5750 2950 50  0001 C CNN
+F 3 "~" H 5750 2950 50  0001 C CNN
+F 4 "452403012014" H 0   0   50  0001 C CNN "Part number"
+	1    5750 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U201
+U 1 1 5D72AFBD
+P 3300 4800
+AR Path="/5C72F90C/5D72AFBD" Ref="U201"  Part="1" 
+AR Path="/5C7379E1/5D72AFBD" Ref="U301"  Part="2" 
+F 0 "U201" H 3300 5167 50  0000 C CNN
+F 1 "NE5532" H 3300 5076 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3300 4800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3300 4800 50  0001 C CNN
+F 4 "NE5534ADG" H -600 1900 50  0001 C CNN "Part number"
+	1    3300 4800
+	-1   0    0    1   
+$EndComp
+Text HLabel 3900 2250 3    50   Input ~ 0
+V-
+$Comp
+L Amplifier_Operational:NE5532 U201
+U 3 1 5CFF028B
+P 4000 1950
+AR Path="/5C72F90C/5CFF028B" Ref="U201"  Part="3" 
+AR Path="/5C7379E1/5CFF028B" Ref="U301"  Part="3" 
+F 0 "U201" H 3958 1996 50  0000 L CNN
+F 1 "NE5532" H 3958 1905 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4000 1950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 4000 1950 50  0001 C CNN
+F 4 "NE5534ADG" H 0   -100 50  0001 C CNN "Part number"
+	3    4000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2250 5850 2700
+Connection ~ 5850 2700
+Text HLabel 6050 1800 1    50   Input ~ 0
+V+
+Text HLabel 6050 2500 3    50   Input ~ 0
+V-
+Wire Wire Line
+	6050 2500 6050 2450
+Wire Wire Line
+	6050 1850 6050 1800
+$Comp
+L Amplifier_Operational:NE5534 U202
+U 1 1 5D7704DF
+P 6150 2150
+AR Path="/5C72F90C/5D7704DF" Ref="U202"  Part="1" 
+AR Path="/5C7379E1/5D7704DF" Ref="U302"  Part="1" 
+F 0 "U202" H 5600 2450 50  0000 L CNN
+F 1 "NE5534" H 5600 2350 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5534.pdf" H 6200 2300 50  0001 C CNN
+	1    6150 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1600 6950 2700
+Wire Wire Line
+	5200 1600 6950 1600
+Wire Wire Line
+	5850 2700 6650 2700
+Wire Wire Line
+	6250 2450 6800 2450
+Wire Wire Line
+	6800 2450 6800 1850
+Wire Wire Line
+	6450 2150 6650 2150
+Wire Wire Line
+	6650 2150 6650 2700
+Connection ~ 6650 2700
+Wire Wire Line
+	6650 2700 6950 2700
+$Comp
+L Device:C C209
+U 1 1 5D7D7FFA
+P 6500 1850
+AR Path="/5C72F90C/5D7D7FFA" Ref="C209"  Part="1" 
+AR Path="/5C7379E1/5D7D7FFA" Ref="C309"  Part="1" 
+F 0 "C209" V 6350 1650 50  0000 L CNN
+F 1 "10p" V 6350 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6538 1700 50  0001 C CNN
+F 3 "~" H 6500 1850 50  0001 C CNN
+F 4 "MC0603N100J500CT " H 6500 1850 50  0001 C CNN "Part number"
+F 5 "C0G 0603" H 4150 -2700 50  0001 C CNN "Parameters"
+	1    6500 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 1850 6650 1850
+Wire Wire Line
+	6350 1850 6150 1850
 $EndSCHEMATC

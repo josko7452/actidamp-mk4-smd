@@ -128,4 +128,5 @@
   (lib (name Transformer_THT)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Transformer_THT.pretty)(options "")(descr ""))
   (lib (name Valve)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Valve.pretty)(options "")(descr ""))
   (lib (name Varistor)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Varistor.pretty)(options "")(descr ""))
+  (lib (name actidamp-mk4-smd)(type KiCad)(uri ${KIPRJMOD}/actidamp-mk4-smd.pretty)(options "")(descr ""))
 )
