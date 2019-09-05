@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -1340,16 +1340,16 @@ Wire Wire Line
 	8750 5000 8750 4950
 $Comp
 L Amplifier_Operational:NE5532 U201
-U 2 1 5CFDF7B0
+U 1 1 5CFDF7B0
 P 3900 2900
-AR Path="/5C72F90C/5CFDF7B0" Ref="U201"  Part="2" 
+AR Path="/5C72F90C/5CFDF7B0" Ref="U201"  Part="1" 
 AR Path="/5C7379E1/5CFDF7B0" Ref="U301"  Part="1" 
 F 0 "U201" H 3900 3267 50  0000 C CNN
 F 1 "NE5532" H 3900 3176 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 2900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3900 2900 50  0001 C CNN
 F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
-	2    3900 2900
+	1    3900 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1979,26 +1979,26 @@ U 1 1 5D71A7DA
 P 5750 2950
 AR Path="/5C72F90C/5D71A7DA" Ref="SW202"  Part="1" 
 AR Path="/5C7379E1/5D71A7DA" Ref="SW202"  Part="2" 
-F 0 "SW202" H 5700 2650 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 5700 2500 50  0000 C CNN
+F 0 "SW202" H 5700 3450 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 5650 3350 50  0000 C CNN
 F 2 "actidamp-mk4-smd:Wurth_452403012014" H 5750 2950 50  0001 C CNN
 F 3 "~" H 5750 2950 50  0001 C CNN
 F 4 "452403012014" H 0   0   50  0001 C CNN "Part number"
 	1    5750 2950
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:NE5532 U201
-U 1 1 5D72AFBD
+U 2 1 5D72AFBD
 P 3300 4800
-AR Path="/5C72F90C/5D72AFBD" Ref="U201"  Part="1" 
+AR Path="/5C72F90C/5D72AFBD" Ref="U201"  Part="2" 
 AR Path="/5C7379E1/5D72AFBD" Ref="U301"  Part="2" 
 F 0 "U201" H 3300 5167 50  0000 C CNN
 F 1 "NE5532" H 3300 5076 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3300 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3300 4800 50  0001 C CNN
 F 4 "NE5534ADG" H -600 1900 50  0001 C CNN "Part number"
-	1    3300 4800
+	2    3300 4800
 	-1   0    0    1   
 $EndComp
 Text HLabel 3900 2250 3    50   Input ~ 0
