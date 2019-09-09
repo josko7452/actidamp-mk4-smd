@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:actidamp-mk4-smd-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -619,50 +619,6 @@ Wire Wire Line
 	1800 3550 1800 3950
 Wire Wire Line
 	2150 3250 2100 3250
-$Comp
-L Mechanical:MountingHole H101
-U 1 1 5D6E3F66
-P 2550 6000
-F 0 "H101" H 2650 6046 50  0000 L CNN
-F 1 "MountingHole" H 2650 5955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 2550 6000 50  0001 C CNN
-F 3 "~" H 2550 6000 50  0001 C CNN
-	1    2550 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H103
-U 1 1 5D6E3FDD
-P 3400 6000
-F 0 "H103" H 3500 6046 50  0000 L CNN
-F 1 "MountingHole" H 3500 5955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3400 6000 50  0001 C CNN
-F 3 "~" H 3400 6000 50  0001 C CNN
-	1    3400 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H102
-U 1 1 5D6E4023
-P 2550 6300
-F 0 "H102" H 2650 6346 50  0000 L CNN
-F 1 "MountingHole" H 2650 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 2550 6300 50  0001 C CNN
-F 3 "~" H 2550 6300 50  0001 C CNN
-	1    2550 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H104
-U 1 1 5D6E406B
-P 3400 6300
-F 0 "H104" H 3500 6346 50  0000 L CNN
-F 1 "MountingHole" H 3500 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3400 6300 50  0001 C CNN
-F 3 "~" H 3400 6300 50  0001 C CNN
-	1    3400 6300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS102
 U 1 1 5D6E5FA9
