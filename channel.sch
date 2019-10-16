@@ -879,10 +879,10 @@ AR Path="/5C88EE9E" Ref="C?"  Part="1"
 AR Path="/5C72F90C/5C88EE9E" Ref="C224"  Part="1" 
 AR Path="/5C7379E1/5C88EE9E" Ref="C324"  Part="1" 
 F 0 "C224" H 7050 3600 50  0000 L CNN
-F 1 "220p" H 7050 3500 50  0000 L CNN
+F 1 "2.2n" H 7050 3500 50  0000 L CNN
 F 2 "actidamp-mk4-smd:C_0805_2012Metric_Pad1.15x1.1mm_HandSolder" H 7388 3400 50  0001 C CNN
 F 3 "~" H 7350 3550 50  0001 C CNN
-F 4 "ECHU1H221GX5" H 0   0   50  0001 C CNN "Part number"
+F 4 "ECHU1H222GX5" H 0   0   50  0001 C CNN "Part number"
 F 5 "PPS 0805" H 0   0   50  0001 C CNN "Parameters"
 	1    7350 3550
 	1    0    0    -1  
@@ -1348,7 +1348,7 @@ F 0 "U201" H 3900 3267 50  0000 C CNN
 F 1 "NE5532" H 3900 3176 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 2900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3900 2900 50  0001 C CNN
-F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
+F 4 "NE5532DR" H 0   0   50  0001 C CNN "Part number"
 	1    3900 2900
 	1    0    0    -1  
 $EndComp
@@ -1362,7 +1362,7 @@ F 0 "U204" H 7850 3417 50  0000 C CNN
 F 1 "NE5532" H 7850 3326 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7850 3050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 7850 3050 50  0001 C CNN
-F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
+F 4 "NE5532DR" H 0   0   50  0001 C CNN "Part number"
 	2    7850 3050
 	1    0    0    -1  
 $EndComp
@@ -1376,7 +1376,7 @@ F 0 "U204" H 10058 2246 50  0000 L CNN
 F 1 "NE5532" H 10058 2155 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10100 2200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 10100 2200 50  0001 C CNN
-F 4 "NE5534ADG" H 0   -100 50  0001 C CNN "Part number"
+F 4 "NE5532DR" H 0   -100 50  0001 C CNN "Part number"
 	3    10100 2200
 	1    0    0    -1  
 $EndComp
@@ -1390,7 +1390,7 @@ F 0 "U204" H 10000 3517 50  0000 C CNN
 F 1 "NE5532" H 10000 3426 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10000 3150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 10000 3150 50  0001 C CNN
-F 4 "NE5534ADG" H 0   0   50  0001 C CNN "Part number"
+F 4 "NE5532DR" H 0   0   50  0001 C CNN "Part number"
 	1    10000 3150
 	1    0    0    -1  
 $EndComp
@@ -1997,7 +1997,7 @@ F 0 "U201" H 3300 5167 50  0000 C CNN
 F 1 "NE5532" H 3300 5076 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3300 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 3300 4800 50  0001 C CNN
-F 4 "NE5534ADG" H -600 1900 50  0001 C CNN "Part number"
+F 4 "NE5532DR" H -600 1900 50  0001 C CNN "Part number"
 	2    3300 4800
 	-1   0    0    1   
 $EndComp
@@ -2013,7 +2013,7 @@ F 0 "U201" H 3958 1996 50  0000 L CNN
 F 1 "NE5532" H 3958 1905 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4000 1950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2160703.pdf" H 4000 1950 50  0001 C CNN
-F 4 "NE5534ADG" H 0   -100 50  0001 C CNN "Part number"
+F 4 "NE5532DR" H 0   -100 50  0001 C CNN "Part number"
 	3    4000 1950
 	1    0    0    -1  
 $EndComp
@@ -2038,6 +2038,7 @@ F 0 "U202" H 5600 2450 50  0000 L CNN
 F 1 "NE5534" H 5600 2350 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 2200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne5534.pdf" H 6200 2300 50  0001 C CNN
+F 4 "NE5534ADG" H 6150 2150 50  0001 C CNN "Part number"
 	1    6150 2150
 	1    0    0    -1  
 $EndComp
