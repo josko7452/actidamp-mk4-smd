@@ -755,7 +755,7 @@ Connection ~ 3800 2900
 Text Notes 2800 2050 0    50   ~ 0
 The output of regulators should be +- approx. 18.5\nThat makes +- approx. 17.5 after psu_rails capacitor multiplier
 Text Notes 1300 4000 1    50   ~ 0
-Input in range of +-25 up to +-35V
+Input in range of +-25 up to +-28V
 Wire Wire Line
 	8100 2650 8100 3800
 Wire Wire Line
