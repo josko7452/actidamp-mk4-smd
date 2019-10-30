@@ -1,0 +1,71 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Barrel_Jack_Switch
+#
+DEF Connector_Barrel_Jack_Switch J 0 20 Y N 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "Connector_Barrel_Jack_Switch" 0 -200 50 H V C CNN
+F2 "" 50 -40 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 50 -90 75 -65 N
+P 2 0 1 10 200 100 150 100 N
+P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_XLR3
+#
+DEF Connector_XLR3 J 0 20 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "Connector_XLR3" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*XLR*
+$ENDFPLIST
+DRAW
+C -140 0 40 0 1 0 N
+C 0 -140 40 0 1 0 N
+C 0 0 200 0 1 0 f
+C 140 0 40 0 1 0 N
+T 0 -140 70 40 0 0 1 1 Normal 1 C C
+T 0 140 70 40 0 0 1 2 Normal 1 C C
+T 0 0 -70 40 0 0 1 3 Normal 1 C C
+P 2 0 1 0 -200 0 -180 0 N
+P 2 0 1 0 0 -200 0 -180 N
+P 2 0 1 0 200 0 180 0 N
+X ~ 1 -300 0 100 R 50 50 0 1 P
+X ~ 2 300 0 100 L 50 50 0 1 P
+X ~ 3 0 -300 100 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library
