@@ -1,0 +1,10 @@
+(module "text3" (layer F.Cu)
+(fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
+(effects (font (size 1.27 1.27) (thickness 0.15)))
+)
+(fp_text value Val** (at 0 0) (layer F.SilkS) hide
+(effects (font (size 1.27 1.27) (thickness 0.15)))
+)
+  (fp_poly (pts (xy -4.000332 0.406400) (xy -3.378200 0.406400) (xy -3.378200 0.723900) (xy -4.343545 0.723900) (xy -4.340298 -0.346075) (xy -4.337050 -1.416050) (xy -4.006850 -1.416050) (xy -4.000332 0.406400) )(layer F.Cu) (width  0.010000)
+  )
+)
