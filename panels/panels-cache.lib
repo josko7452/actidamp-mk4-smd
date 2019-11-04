@@ -68,4 +68,16 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
+# actidamp_Graphic
+#
+DEF actidamp_Graphic Grp 0 40 Y Y 1 F N
+F0 "Grp" 0 -100 50 H V C CNN
+F1 "actidamp_Graphic" 0 0 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+S -150 50 150 -50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 #End Library
