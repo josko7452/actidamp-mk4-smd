@@ -1,4 +1,4 @@
-16172458656341729
+16188186809291612
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73171,6 +73171,48 @@ AC_entry_770W-X2
 2
 2
 actidamp-mk4-smd
+BP_text_DC_In
+
+
+0
+0
+0
+actidamp-mk4-smd
+BP_text_GND
+
+
+0
+0
+0
+actidamp-mk4-smd
+BP_text_L
+
+
+0
+0
+0
+actidamp-mk4-smd
+BP_text_R
+
+
+0
+0
+0
+actidamp-mk4-smd
+BP_text_input
+
+
+0
+0
+0
+actidamp-mk4-smd
+BP_text_output
+
+
+0
+0
+0
+actidamp-mk4-smd
 C_0805_2012Metric_Pad1.15x1.1mm_HandSolder
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor handsolder
@@ -73198,6 +73240,20 @@ capacitor handsolder
 0
 2
 2
+actidamp-mk4-smd
+FP_Logo
+
+
+0
+0
+0
+actidamp-mk4-smd
+FP_text
+
+
+0
+0
+0
 actidamp-mk4-smd
 Heatsink_TO252_573100
 
@@ -73227,12 +73283,26 @@ MiniXLR_TRAPC3M1X
 5
 3
 actidamp-mk4-smd
+MiniXLR_TRAPC3M1X_FP
+
+
+0
+0
+0
+actidamp-mk4-smd
 RCA_x1_PJRAN1X1U
 
 
 0
 3
 3
+actidamp-mk4-smd
+RCA_x1_PJRAN1X1U_FP
+
+
+0
+0
+0
 actidamp-mk4-smd
 SCREW_TERMINAL_SCTM4RA
 
