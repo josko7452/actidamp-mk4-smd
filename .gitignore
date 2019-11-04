@@ -16,3 +16,4 @@
 **/*.dsn
 **/*.ses
 **/fp-info-cache
+**/gerbers
