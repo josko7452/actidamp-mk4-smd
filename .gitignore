@@ -17,3 +17,6 @@
 **/*.ses
 **/fp-info-cache
 **/gerbers
+**/*.pdf
+**/*.raw
+**/*.log
