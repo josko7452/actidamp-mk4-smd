@@ -20,6 +20,7 @@ Low noise RIAA preamplifier with JFET input and active input impedance (to mitig
 
 To build this just download Gerbers from release page and hand-off to your favourtie PCB manufacturer.
 I have tested it with JLC PCB. But it has no crazy requirements besides the mainboard is 4 layer.
+
 (If you want BOM, download KiCad and generate it from the Schematic, you will likely change parts anyway
 dependig on accessibility.. you can shoot me a message and I will send you the Mouser part list from
 my order history if you wish)
