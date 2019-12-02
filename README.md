@@ -25,6 +25,12 @@ I have tested it with JLC PCB. But it has no crazy requirements besides the main
 dependig on accessibility.. you can shoot me a message and I will send you the Mouser part list from
 my order history if you wish)
 
+## Structure
+
+There are 3 KiCad project for each PCB. i.e. *'main-pcb'*, *'panels'* and *'psu-brick'*.
+Also there is LTSpice simulation in 'ltspice' subfolder.
+Other than that it also cointains KiCad libraries used as submodules (kicad-footprints and kicad-symbols)
+
 ## Authors
 
 * **Pavel Dudek** - *Original THT version* - [Amaterske radio 94-06](https://archive.org/stream/Amaterske_radio_1994/94-06#page/n19)
